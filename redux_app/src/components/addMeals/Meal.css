@@ -1,0 +1,84 @@
+.mealform {
+  background: orange;
+  width: 497px;
+
+  margin: 3rem auto;
+  background: #f3f5fe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.input-controls {
+  padding: 2rem 0;
+  width: 90%;
+  margin: auto;
+}
+.input-control-add {
+  padding: 1rem 0;
+  text-align: start;
+}
+label {
+  text-transform: uppercase;
+  font-weight: bolder;
+  line-height: 2;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 11px;
+  outline: none;
+}
+
+.warning {
+  margin: 1rem 0;
+  width: 100%;
+  height: 174px;
+  background: #eaeaea;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.warning > p {
+  width: 80%;
+  font-size: large;
+  font-weight: bolder;
+  color: #595959;
+}
+
+.btn-addmeal > button {
+  text-transform: uppercase;
+  width: 100%;
+  height: 44px;
+  background: #273163;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  color: #0ccde8;
+}
+.btn-addmeal > button:hover {
+  background: #323e79;
+}
+.btn-addmeal > button:active {
+  background: #3f4c8d;
+}
+a {
+  text-decoration: none;
+}
+.btn-meals {
+  width: 300px;
+
+  margin: auto;
+}

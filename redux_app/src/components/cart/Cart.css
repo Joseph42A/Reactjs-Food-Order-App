@@ -1,0 +1,115 @@
+.cart {
+  flex: 35%;
+}
+.cart-container {
+  background: #f3f5fe;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 1rem;
+}
+.cart-item-container {
+  height: 460px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+/* }
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 1rem;
+  margin: 0.6rem 0;
+}
+
+.cart-left > h5 {
+  font-size: large;
+  color: #273163;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+}
+.cart-left > div > h6 {
+  color: #044d57;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.cart-left > div > p {
+  border: 1px solid rgb(160, 160, 160);
+  padding: 0 6px;
+  padding-bottom: 1px;
+  border-radius: 4px;
+  color: #757575;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.addbtn > button,
+.removeBtn > button {
+  padding: 2px 15px;
+  cursor: pointer;
+  margin-right: 4px;
+  font-size: 1rem;
+  background: white;
+  font-weight: bolder;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid black;
+}
+.addbtn > button:active,
+.removeBtn > button:active {
+  transform: scale(1.1);
+} */
+
+/* Footer  */
+.footer-container {
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total > h2 {
+  color: #273163;
+}
+.total > h3 {
+  color: #044d57;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.actions > button {
+  padding: 5px 10px;
+  margin-left: 1rem;
+  background: #273163;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  border: none;
+  color: #0ccde8;
+  font-weight: bolder;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.actions > button:hover {
+  background: #343f75;
+}

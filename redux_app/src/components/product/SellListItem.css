@@ -1,0 +1,57 @@
+.sellList-item {
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0.6rem 0;
+}
+.left-item > h3 {
+  color: #273163;
+}
+.left-item > p {
+  color: #6f6f6f;
+}
+.left-item > h5 {
+  color: #044d57;
+}
+.right-item > .lbl {
+  color: white;
+  padding: 4px 8px;
+  font-weight: bolder;
+  background: #273163;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+.right-item > .input-control > input {
+  background: #ffffff;
+  border: 0.5px solid #d2d2d2;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  width: 100%;
+  text-align: center;
+  padding: 4px 0;
+  margin: 4px 0;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+.right-item > .btn > button {
+  background: #273163;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  width: 100%;
+  color: white;
+  font-weight: bolder;
+  padding: 4px 8px;
+  outline: none;
+  border: none;
+  color: #0ccde8;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.right-item > .btn > button:hover {
+  background: #36417c;
+}
